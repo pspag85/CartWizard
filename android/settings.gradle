@@ -1,0 +1,3 @@
+rootProject.name = 'CartWizard'
+
+include ':app'

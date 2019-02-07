@@ -1,0 +1,6 @@
+1. reopen android studio as admin. build the gradle. if no issue, proceed on
+2. access the android folder of your app. i.e c:\folder\app\android
+3. type in gradlew clean
+4. run react-native run-android
+
+that should solve your problem.
