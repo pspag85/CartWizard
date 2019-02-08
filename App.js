@@ -18,11 +18,11 @@ const instructions = Platform.select({
 });
 
 type Props = {};
-export default class App extends Component(props) {
+export default class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>Welcome to Cart Wizard!</Text>
+        <Text style={styles.welcome}>Welcome To cartwizard</Text>
         <Text style={styles.instructions}>To get started, edit App.js</Text>
         <Text style={styles.instructions}>{instructions}</Text>
       </View>
